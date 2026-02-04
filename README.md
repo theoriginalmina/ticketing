@@ -35,7 +35,10 @@ react-app
 
 # Create a secret in kubectl for jwt
 
-`  kubectl create secret generic jwt-secret --from-literal=JWT_KEY=thekey`
+1. jwt-secret
+   `kubectl create secret generic jwt-secret --from-literal=JWT_KEY=thekey`
+2. stripe-secret
+   `kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=thekey`
 
 ## kubectl create secret generic jwt-secret --from-literal=JWT_KEY=thekey
 

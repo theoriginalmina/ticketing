@@ -1,5 +1,5 @@
 {
-  "name": "orders",
+  "name": "payments",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -24,6 +24,7 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/mongoose": "^5.11.96",
     "cookie-session": "^2.1.1",
+    "dotenv": "^17.2.3",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "express-validator": "^7.2.0",
@@ -31,6 +32,7 @@
     "mongoose": "^5.9.7",
     "mongoose-update-if-current": "^1.4.0",
     "node-nats-streaming": "^0.3.2",
+    "stripe": "^20.3.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^5.5.4"
   },
