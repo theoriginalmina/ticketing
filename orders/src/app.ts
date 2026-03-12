@@ -19,6 +19,7 @@ app.use(
 );
 
 app.use(currentUser);
+console.log("S");
 
 app.use(deleteOrderRouter);
 app.use(indexOrderRouter);
