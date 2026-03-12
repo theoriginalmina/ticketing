@@ -19,7 +19,7 @@ app.use(
 );
 
 app.use(currentUser);
-console.log("S");
+console.log("SCDSC");
 
 app.use(deleteOrderRouter);
 app.use(indexOrderRouter);
