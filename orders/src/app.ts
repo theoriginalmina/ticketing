@@ -19,6 +19,7 @@ app.use(
 );
 
 app.use(currentUser);
+console.log("DDD");
 
 app.use(deleteOrderRouter);
 app.use(indexOrderRouter);
